@@ -1,0 +1,29 @@
+{
+  "name": "timestamp.macro",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "date-fns": "^1.30.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-macros": "^2.4.3",
+    "babel-plugin-tester": "^5.5.2",
+    "best-prettier-config": "^1.1.0",
+    "eslint": "^5.10.0",
+    "eslint-config-macklinu": "^1.2.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
